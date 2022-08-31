@@ -1,4 +1,4 @@
-package Java.Arrangement;
+package Arrangement;
 
 /*
  * Input format:

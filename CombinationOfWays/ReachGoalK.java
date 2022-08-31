@@ -1,4 +1,4 @@
-package Java.CombinationOfWays;
+package CombinationOfWays;
 
 import java.util.Scanner;
 

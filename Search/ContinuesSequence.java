@@ -1,4 +1,4 @@
-package Java.Search;
+package Search;
 
 /*
  * Kabir gave you a binary string S and an integer k. Your task is to find the Longest continuous sequence of '0' after repeating the given string K time.
