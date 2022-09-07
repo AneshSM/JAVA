@@ -13,7 +13,7 @@ public class ReachGoalK {
             throw new OutOfRange("Value must be within k>=1 && k<=10000");
         
         System.out.println(numbrOfWays(point,k));
-        
+        sc.close();
         }
         catch(OutOfRange e){
             System.out.println(e.getMessage());

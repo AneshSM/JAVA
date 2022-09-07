@@ -1,4 +1,4 @@
-package Arrangement;
+package Sort;
 
 /*
  * Input format:

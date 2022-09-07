@@ -1,4 +1,4 @@
-package Arrangement;
+package Sort;
 
 /*
  * Adhi wants to gift a pot to her father on his birthday and asked for help from her Sister Dia. Dia gives N flower sticks numbered 1 to N to Adhi and tells her to arrange them in the pot in a particular order. He asks her to arrange the first K flower sticks in the order of their increasing length and the remaining sticks in the order of their decreasing length.
