@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 import java.util.Scanner;
 class BuySellStocksProfit{
     public static void main(String[] args) {

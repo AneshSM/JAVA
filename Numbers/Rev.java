@@ -15,7 +15,7 @@ class Rev{
         }
         if(num1>rev)
             System.out.print(-1);
-        else
+        
             
     }
 
