@@ -141,10 +141,10 @@ public class StarPattern{
         // BrightAngled(n);
         // rightAngledMirr(n);
         BrightAngledMirr(n);
-        // Triangle(n);
-        //TriangleMirr(n);
-        // // n=n/2;
-        // Diamond(n); 
-        //Butterfly(n);
+        Triangle(n);
+        TriangleMirr(n);
+        // n=n/2;
+        Diamond(n); 
+        Butterfly(n);
     }
 }
