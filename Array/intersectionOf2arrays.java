@@ -11,31 +11,19 @@ public class intersectionOf2arrays {
     public static void main(String[] args) {
         System.out.println("Enter array A size and ists elements:");
         int n = sc.nextInt();
-        int a[] = new int[n];
-
-        for (int i = 0; i < n; i++)
-            a[i] = sc.nextInt();
-
+        int a[] =DSpackage.CreateArray(n);
         System.out.println("Enter array B size and ists elements:");
         int m = sc.nextInt();
-        int b[] = new int[m];
-
-        for (int i = 0; i < m; i++)
-            b[i] = sc.nextInt();
-
+        int b[] = DSpackage.CreateArray(n);
         System.out.println("Using Array:");    
         int ARR[]=new int[intersectArray(a, b).length];
         ARR=intersectArray(a, b);
-        for(int i=0;i<ARR.length;i++){
-         System.out.print(" "+ARR[i]);   
-        }
+        DSpackage.printArray(ARR);
 
         System.out.println("\nUsing HashMap:");    
         int HM[]=new int[intersectArray(a, b).length];
         HM=intersectArray(a, b);
-        for(int i=0;i<HM.length;i++){
-         System.out.print(" "+ARR[i]);   
-        }
+        DSpackage.printArray(HM);
     }
 
     public static int[] intersectHashMap(int[] a, int[] b) {

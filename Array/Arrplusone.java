@@ -1,5 +1,5 @@
 package Array;
-
+import DSpackage.*;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -7,17 +7,11 @@ class Array {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-
         int n = sc.nextInt();
-        int[] a = new int[n];
-        for (int i = 0; i < n; i++) {
-            a[i] = sc.nextInt();
-        }
+        int[] a = DSpackage.CreateArray(n);
         int ARR[] = new int[plusone1ms(a).length];
         ARR = plusone1ms(a);
-        for (int i = 0; i <ARR.length; i++) {
-            System.out.print(" " + ARR[i]);
-        }
+        DSpackage.printArray(ARR);
     }
 
     // public static int[] plusone(int[] a) {

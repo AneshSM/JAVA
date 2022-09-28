@@ -11,15 +11,8 @@ public class Holy2highMarks {
     public static void main(String [] args){
 
         int n=sc.nextInt();
-        int []m=new int[n];
-        int []c=new int[n];
-        for(int i=0;i<n;i++){
-            m[i]=sc.nextInt();
-           
-        }
-        for(int i=0;i<n;i++){
-            c[i]=sc.nextInt();  
-        }
+        int []m=DSpackage.CreateArray(n);
+        int []c=DSpackage.CreateArray(n);
         System.out.println(getHolydayArr(m,c));
         System.out.println(getHolydayTree(m,c));
     }

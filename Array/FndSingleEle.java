@@ -6,10 +6,7 @@ public class FndSingleEle {
    static Scanner sc=new Scanner(System.in);
     public static void main(String[] args) {
         int n=sc.nextInt();
-        int[]a=new int[n];
-        for(int i=0;i<n;i++){
-            a[i]=sc.nextInt();
-        }
+        int[]a=DSpackage.CreateArray(n);
         System.out.println(findSingleByArray(a));
         System.out.println(findSingleByHashMap(a));
     }

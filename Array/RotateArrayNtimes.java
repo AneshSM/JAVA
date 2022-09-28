@@ -9,12 +9,8 @@ public class RotateArrayNtimes {
 
         System.out.println("Enter the number of array elements:");
         int n=sc.nextInt();
-        int[] a=new int[n];
+        int[] a=DSpackage.CreateArray(n);
 
-        System.out.println("Enter the elements:");
-        for(int i=0;i<n;i++){
-            a[i]=sc.nextInt();
-        }
         System.out.println("Enter the number of rotation required:");
         int k=sc.nextInt();
          // a=rotate(a,k);      
@@ -26,8 +22,8 @@ public class RotateArrayNtimes {
 
         for(int i=0;i<n;i++){
             a[i]=b[i];
-            System.out.print(" "+a[i]);
         }
+        DSpackage.printArray(a);
         b=null;
         sc.close();
     }
