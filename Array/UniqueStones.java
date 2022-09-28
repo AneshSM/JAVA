@@ -8,10 +8,7 @@ public class UniqueStones {
     public static void main(String []args){
         int n=sc.nextInt();
         int m=sc.nextInt();
-        int[]a=new int[m]; 
-        for(int i=0;i<m;i++){
-            a[i]=sc.nextInt();
-        }
+        int[]a=DSpackage.CreateArray(m);
         ArrayList<Integer>al=new ArrayList<>();
         for(int i=1;i<=n;i++){
             al.add(i);

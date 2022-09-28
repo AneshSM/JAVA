@@ -11,10 +11,7 @@ class StableSortandPosition{
     public static void main(String[] args) {
 
         int n = sc.nextInt();
-        long[] a = new long[n];
-        for (int i = 0; i < n; i++) {
-            a[i] = sc.nextLong();
-        }
+        long[] a =DSpackage.CreateArray(n);
         int index=sc.nextInt();
         System.out.println(getIndexInSortedArray(a,n,index));
     }

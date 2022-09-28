@@ -1,7 +1,7 @@
 package DSpackage;
 
 import java.util.Scanner;
-public class CreateArray{
+public class Arrays{
     static Scanner sc=new Scanner(System.in);
     @oOverride
     public int[] createArray(int n){
@@ -20,6 +20,7 @@ public class CreateArray{
     }
     @oOverride
     public void printArray(int a[]){
+        System.out.println("Array Elements:");
         for(int i:a)
             System.out.print(i+" ");
     }
