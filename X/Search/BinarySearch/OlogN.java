@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import Search.LinearSearch.*;
+import Search.LinearSearching.*;
 
 public class OlogN{
     static Scanner sc=new Scanner(System.in);

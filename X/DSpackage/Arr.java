@@ -1,5 +1,6 @@
 package DSpackage;
 
+import java.util.Random;
 import java.util.Scanner;
 public class Arr{
     static Scanner sc=new Scanner(System.in);
